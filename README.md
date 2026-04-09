@@ -63,3 +63,18 @@ A standalone Task Manager following [app-spec.md](./app-spec.md):
 
 1. **PR Link:** [Insert your Pull Request link here]
 2. **Video Link:** [Insert your Loom or recorded demo link here]
+
+---
+
+## How to Run Locally
+
+### Vibe Version
+Open `vibe-version/index.html` directly in any browser. No build step needed.
+
+### Pair Version
+```bash
+cd pair-version
+npm install
+npm run dev      # development server at localhost:5173
+npm run build    # production build → dist/
+```
